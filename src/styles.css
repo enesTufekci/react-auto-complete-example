@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #f4f4f4;
+}
+.app-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.search-container {
+  width: 100%;
+  text-align: center;
+}
+
+.search-container input {
+  width: 100%;
+  max-width: 600px;
+  margin: 8px;
+  height: 48px;
+  font-size: 20px;
+  text-indent: 8px;
+  outline: none;
+  border: none;
+  font-weight: 300;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35);
+}
+
+.autocomplete-container {
+  display: flex;
+  justify-content:center;
+  padding: 0 8px;
+}
+
+.autocomplete-list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  list-style: none;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35);
+}
+
+.autocomplete-list li {
+  height: 32px;
+  font-size: 14px;
+  padding: 0 8px;
+  line-height: 32px; 
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.autocomplete-list li .highlight {
+  background: none;
+  font-weight: 600;
+}
